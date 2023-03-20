@@ -1,0 +1,651 @@
+body{
+	background: radial-gradient(at top, #fff740, #f56e8b, #408dd2 );
+	
+
+}
+header{
+	border:1px solid #fae5fa;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	align-items: center;
+	vertical-align: middle;
+	background-color: rgba(250, 229, 250, 0.2);
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1), 0px 0px 66px 15px rgba(0, 0, 0, 0.115) inset;
+}
+.nav-item{
+	font-family: 'League Gothic', sans-serif;
+	color: black;
+	font-size: 35px;
+	text-decoration: none;
+}
+.nav-item:hover{
+	color: #fae5fa;
+	transition: 0.5s;
+}
+.nav-icon{
+	width: 90%;
+	max-width: 50px;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+
+	
+	
+}
+.logo{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.logo-icon{
+	width: 60%;
+	height: auto;
+	
+}
+.cart{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cart:hover{
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1);
+	border:1px solid #fae5fa;
+	transition: 0.5s;
+}
+
+
+header .row{
+	padding: 10px;
+}
+.navv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	
+	
+}
+.nav-all{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.carousel{
+	margin-top:20px;
+    width: 60%;
+    margin: 0 auto;
+
+}
+.carousel-inner img {
+  height: auto;
+  width: 100%;
+}
+
+.list li{
+	list-style-type: none;
+	border:1px solid #fae5fa;
+	background-color: rgba(250, 229, 250, 0.2);
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1), 0px 0px 66px 15px rgba(0, 0, 0, 0.115) inset;
+	width: 220px;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+.list li a{
+	font-family: 'League Gothic', sans-serif;
+	color: black;
+	font-size: 35px;
+	text-decoration: none;
+}
+.listt{
+	display: flex;
+	justify-content: center;
+}
+.list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 30px;
+	flex-wrap: wrap;
+	 margin-left: 0; 
+    padding-left: 0
+
+
+}
+.list li:hover{
+	background-color: rgba(250, 229, 250, 2);
+	transition: 0.5s;
+}
+.new{
+	margin-top: 65px;
+	text-align: center;
+	font-family: 'League Gothic', sans-serif;
+	color: black;
+	font-size: 40px;
+
+}
+
+.news{
+	display: flex;
+	
+	grid-gap: 15px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: auto;
+}
+
+.card, .card-header, .card-body, .card-footer, .card-img-top{
+    border-radius:0px !important;
+}
+.card-body{
+	background-color: rgba(250, 229, 250, 0.2);
+	font-family: 'League Gothic', sans-serif;
+
+}
+
+.card{
+	border:1px solid #fae5fa !important;
+	background-color: transparent !important;
+	z-index: 0;
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1), 0px 0px 66px 15px rgba(0, 0, 0, 0.115) inset;
+}
+.card:hover{
+	z-index: 1;
+	box-shadow: 0px 0px 77px 4px rgba(0, 0, 0, 1), 0px 0px 0px 0px rgba(0, 0, 0, 0.115) inset;
+
+	transition: 0.3s;
+}
+
+
+
+.arrow{
+	color: #fae5fa;
+	margin-left: 30%;
+	text-decoration:none;
+	font-size: 50px;
+
+}
+.arrow:hover{
+	color: black;
+	
+	transition: 0.5s;
+
+}
+.card-text{
+	font-size: 20px;
+	vertical-align: bottom;
+}
+
+
+.card-body p{
+	margin-bottom: 0;
+}
+
+.quote{
+	margin-top: 65px;
+	margin-bottom: 65px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Patrick Hand', cursive;
+	font-size:40px;
+	border-top:1px solid #fae5fa;
+	border-bottom:1px solid #fae5fa;
+	padding: 30px 0;
+	background-color: rgba(250, 229, 250, 0.2);
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1), 0px 0px 66px 15px rgba(0, 0, 0, 0.115) inset;
+}
+
+.sovs{
+	display: flex;
+	justify-content: center;
+	grid-gap: 20px;
+	flex-wrap: wrap;
+	margin-bottom: 65px;
+
+}
+.sov-text{
+	font-size:20px;
+	vertical-align: middle;
+	min-height: 240px; 
+	
+}
+
+.arrow-sov{
+	text-align: right;
+	font-size: 50px;
+
+}
+.arrow-sov a:hover{
+	color: black;
+	transition: 0.5s;
+	
+}
+.arrow-sov a{
+	color: #fae5fa;
+	text-decoration:none;
+}
+
+footer div ul{
+	margin: 0;
+	padding: 0;
+	min-width: 200px;
+	
+}
+footer{
+	width: 100%
+	margin-top: 30px;
+	border-top:1px solid #fae5fa;
+	background-color: rgba(250, 229, 250, 0.2);
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1), 0px 0px 66px 15px rgba(0, 0, 0, 0.115) inset;
+	
+}
+
+.fot-nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	grid-gap: 25%;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+li{
+	list-style-type: none;
+}
+.fot-item a, .cat-list-item a, .filters-list-item a{
+	text-decoration: none;
+	color: black;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 17px;
+}
+.fot-item a:hover, .cat-list-item a:hover, .filters-list-item a:hover{
+	color: #fae5fa;
+	transition: 0.5s;
+}
+
+.fot-item-info a{
+	text-decoration: none;
+	color: black;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 35px;
+
+}
+.fot-item-info{
+	text-align: left;
+}
+.fot-item-info a:hover{
+	color: #fae5fa;
+	transition: 0.5s;
+}
+.fot-list-info li p a img{
+	width: 50px;
+	height: auto;
+	border: 1px solid black;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+.fot-icons{
+	display: flex;
+	justify-content: flex-start;
+	grid-gap: 15px;
+}
+.fot-list-info li p a img:hover{
+	border: 1px solid #fae5fa;
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1);
+	transition: 0.5s;
+}
+.fot-p{
+	
+	margin-bottom: 0;
+	margin-left: 20px;
+}
+
+.cat-top{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto;
+	font-family: 'League Gothic', sans-serif;
+}
+
+.card-footer{
+	padding: 0 !important;
+	border-top: none !important;
+	background-color: rgba(250, 229, 250, 0.2) !important;
+
+}
+.card-footer .card-text{
+	vertical-align: middle;
+	font-family: 'League Gothic', sans-serif;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.cat-list-items {
+	margin: 0;
+	height: 
+	padding: 0;
+	border: 1px solid #fae5fa;
+	background-color: rgba(250, 229, 250, 0.2);
+	padding-bottom: 15px;
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1), 0px 0px 66px 15px rgba(0, 0, 0, 0.115) inset;
+}
+
+.cat-list-item {
+	margin-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+.cat-list-item a{
+	
+	font-size:25px;
+}
+
+
+.cat-main{
+	display: flex;
+	justify-content: space-between;
+}
+
+.pagination{
+	margin-top: 30px;
+	
+	
+}
+.page-link{
+	color: black !important;
+	background-color: rgba(250, 229, 250, 0.2) !important;
+	font-family: 'League Gothic', sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto 0;
+
+	
+}
+.disabled{
+	background-color: #fae5fa;
+}
+.page-item, .page-link{
+
+	border-radius: 0px !important;
+	border: 1px solid #fae5fa !important;
+	width: 50px;
+	
+	
+}
+.page-item:hover{
+	background-color: #fae5fa;
+	transition: 0.5s;
+}
+.first{
+	background-color: #fae5fa;
+}
+
+
+.page-link:focus, .page-link:active{
+	box-shadow: none !important;
+}
+
+.btn{
+	border: 1px solid #fae5fa !important;
+	background-color: rgba(250, 229, 250, 0.2) !important;
+	border-radius: 0 !important;
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1);
+}
+.btn:hover{
+	background-color: #fae5fa !important;
+	transition: 0.5s;
+}
+.btn-close:focus, .btn-close:active{
+	box-shadow: none !important;
+}
+
+
+.filters-list-items {
+	margin: 0;
+	height: 
+	padding: 0;
+	padding-bottom: 15px;
+	
+}
+
+.filters-list-item {
+	margin-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+.filters-list-item a{
+	font-size:25px;
+}
+
+.offcanvas-body, .offcanvas-header, .offcanvas{
+	background-color: rgba(250, 229, 250, 0.4) !important;
+}
+.offcanvas{
+	border: 1px solid #fae5fa !important;
+}
+
+.cart-items{
+	margin-top: 65px;
+}
+
+.card-cart-h{
+	font-size: 40px;
+	display: flex;
+	justify-content: space-between;
+	max-height: 50px;
+	margin-bottom: 15px;
+}
+.card-cart-h button{
+	background: none;
+	border: none;
+}
+.card-cart-h button:hover{
+	color: #fae5fa;
+	transition: 0.5s;
+}
+.foo-cart{
+	display: flex;
+	justify-content: flex-end !important;
+	height: 30%;
+
+
+}
+
+.card-cart{
+	height: 70%;
+}
+.foo-cart-p{
+	margin-right: 20px;
+	
+}
+
+.cart-end{
+	margin-top: 55px !important;
+	width: 90%;
+	margin-left:5% !important;
+	margin-bottom: 65px;
+}
+.cart-end-btn{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+}
+.itogo-p{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 40px;
+	align-items: flex-end;
+	border-bottom: 1px solid #fae5fa;
+
+}
+
+.itogo-btn{
+	height: auto;
+	margin: auto 0;
+	border: 1px solid #fae5fa;
+	background-color: rgba(250, 229, 250, 0.2);
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1), 0px 0px 66px 15px rgba(0, 0, 0, 0.115) inset;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 20px;
+	padding: 10px;
+}
+.itogo-btn:hover{
+	background-color: rgba(250, 229, 250, 2);
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1);
+	transition: 0.5s;
+
+}
+
+.input-p{
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+input{
+	width: 50%;
+	height: 50px;
+	border: 1px solid #fae5fa;
+	background-color: rgba(250, 229, 250, 0.2);
+	color: black;
+	border-right: none;
+	padding: 5px;
+}
+input:focus{
+	
+	border-radius: none;
+	outline: none
+}
+input::placeholder {
+  color: black;
+  font-family: 'League Gothic', sans-serif;
+}
+
+.loop-btn, .loop{
+	height: 50px;
+}
+
+.loop-btn{
+	border: 1px solid #fae5fa;
+	background-color: rgba(250, 229, 250, 0.2);
+	border-left: none;
+}
+
+
+
+.card-cont img{
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+}
+.text-cont{
+	font-family: 'League Gothic', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+}
+
+.cont-quest{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	grid-gap: 20px;
+	margin-top: 20px;
+	margin-bottom: 45px;
+}
+
+.cont-btn{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 65px;
+}
+
+.cont-btn button{
+	width: 300px;
+	height: auto;
+	font-family: 'League Gothic', sans-serif;
+	font-weight: bold;
+	padding: 10px;
+	padding-top: 15px;
+	font-size: 20px;
+	border: 1px solid #fae5fa;
+	background-color: rgba(250, 229, 250, 0.2);
+
+}
+
+.cont-btn button:hover{
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1);
+	background-color: #fae5fa;
+	transition: 0.5s;
+
+}
+
+.product-desc p{
+	display: flex;
+	justify-content: space-between;
+	font-size: 10px;
+	color: #747474;
+}
+.product{
+	margin-top: 20px !important;
+}
+
+.product-desc-p b{
+	color: black;
+	font-size: 25px;
+}
+.pr-card:hover{
+	background-color: #fae5fa;
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1), 0px 0px 66px 15px rgba(0, 0, 0, 0.115) inset;
+}
+.foo-prod{
+	display: flex;
+	justify-content: center!important;
+	height: 20%;
+	align-items: center;
+}
+
+.foo-prod-p{
+	height: 50%;
+}
+
+.foo-prod-p button{
+	width: 100%;
+	vertical-align: middle;
+	margin-top: 10px;
+	font-family: 'League Gothic', sans-serif;
+	font-weight: bold;
+	border: 1px solid #fae5fa;
+	background-color: rgba(250, 229, 250, 0.2);
+}
+
+.foo-prod-p button:hover{
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1);
+	background-color: #fae5fa;
+	transition: 0.5s;
+
+}
+
+.desc{
+	padding: 15px;
+	border: 1px solid #fae5fa;
+	background-color: rgba(250, 229, 250, 0.2);
+	box-shadow: 0px 0px 66px -15px rgba(0, 0, 0, 1), 0px 0px 66px 15px rgba(0, 0, 0, 0.115) inset;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 20px;
+	margin-bottom: 65px;
+}
